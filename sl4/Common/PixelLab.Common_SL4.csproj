@@ -6,6 +6,9 @@
     <RootNamespace>PixelLab.Common</RootNamespace>
     <AssemblyName>PixelLab.Common_SL4</AssemblyName>
     <SilverlightApplication>false</SilverlightApplication>
+    <TargetFrameworkVersion>v5.0</TargetFrameworkVersion>
+    <FileUpgradeFlags>40</FileUpgradeFlags>
+    <OldToolsVersion>4.0</OldToolsVersion>
   </PropertyGroup>
   <Import Project="..\..\targets\SL4.targets" />
   <ItemGroup>

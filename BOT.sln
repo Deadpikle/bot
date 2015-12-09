@@ -1,7 +1,13 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "net40-client", "net40-client", "{8FAED319-6ACE-42A1-B34C-F48DE0D94562}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "sl4", "sl4", "{0C8E5BF7-2185-48C2-ADF9-7B9A86827BF4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "sl5", "sl5", "{5440E2E9-B312-4BAF-8762-02135E6F4EC3}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PixelLab.Core", "net40-client\Core\PixelLab.Core.csproj", "{5F336B0C-827C-4E1B-B0FF-53EC17B299A1}"
 EndProject
@@ -10,8 +16,6 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PixelLab.Wpf", "net40-client\Bot\PixelLab.Wpf.csproj", "{E835A348-A6D1-4423-B749-0006B5700C35}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PixelLab.Wpf.Demo", "net40-client\Bot.Demo\PixelLab.Wpf.Demo.csproj", "{17C607ED-D20B-45A7-98D6-7A955F62108A}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "sl4", "sl4", "{0C8E5BF7-2185-48C2-ADF9-7B9A86827BF4}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PixelLab.Core_SL4", "sl4\Core\PixelLab.Core_SL4.csproj", "{D79F2834-0870-4029-BA93-8539CFAEA20E}"
 EndProject
@@ -22,8 +26,6 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PixelLab.SL.Demo", "sl4\SL4.Demo\PixelLab.SL.Demo.csproj", "{521623EC-691A-46D8-A8D4-6C605ACD47DD}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PixelLab.Test_SL", "sl4\Test\PixelLab.Test_SL.csproj", "{E6F34DD6-9449-4FCF-8DFC-4922AE6E99C4}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "sl5", "sl5", "{5440E2E9-B312-4BAF-8762-02135E6F4EC3}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PixelLab.Core_SL5", "sl5\Core\PixelLab.Core_SL5.csproj", "{EBA347D6-9F23-4FAF-83B2-69F1EFAD6D7E}"
 EndProject

@@ -183,6 +183,9 @@ namespace PixelLab.Wpf.Transitions
             }
         }
 
+        public delegate void VoidFunc();
+        public event VoidFunc TransitionCompleted;
+
         // Clean up after the transition is complete
         internal void OnTransitionCompleted()
         {
@@ -197,6 +200,8 @@ namespace PixelLab.Wpf.Transitions
             CoerceValue(TransitionProperty);
             CoerceValue(ClipToBoundsProperty);
             CoerceValue(ContentProperty);
+            if (TransitionCompleted != null)
+                TransitionCompleted();
         }
 
         protected override Size MeasureOverride(Size availableSize)
